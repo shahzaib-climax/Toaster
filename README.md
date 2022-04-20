@@ -13,7 +13,7 @@ allprojects {
 	
 	
   dependencies {
-	        implementation 'com.github.shahzaib-climax:Toaster:Tag'
+	        implementation 'com.github.shahzaib-climax:Toaster:1.0.0'
 	}
   
 
