@@ -1,11 +1,10 @@
-package com.example.toasty;
+package com.example.toasty
 
-import android.content.Context;
-import android.widget.Toast;
+import android.content.Context
+import android.widget.Toast
 
-public class Toaster {
-
-    public static void showToaster(Context context, String newMessages){
-        Toast.makeText(context, newMessages, Toast.LENGTH_SHORT).show();
+object Toaster {
+    fun showToaster(context: Context?, newMessages: String?) {
+        Toast.makeText(context, newMessages, Toast.LENGTH_SHORT).show()
     }
 }
